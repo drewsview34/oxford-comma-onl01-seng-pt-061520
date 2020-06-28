@@ -6,5 +6,6 @@ def oxford_comma(array)
   else
     element_popped = array.pop
     array << "and" + element_popped
+    array.join(", ")
   end
 end
